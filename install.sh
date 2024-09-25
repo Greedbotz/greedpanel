@@ -25,23 +25,23 @@ case $choice in
     1)
         clear
         echo "Mengunduh dan menjalankan installpanel..."
-        curl -O https://raw.githubusercontent.com/Greedbotz/greedpanel/main/installpanel.sh
-        chmod +x installpanel.sh
-        ./installpanel.sh
+        curl -O https://raw.githubusercontent.com/kentanakaXD/abdkshs/main/vhsksk.sh
+        chmod +x vhsksk.sh
+        ./vhsksk.sh
         ;;
     2)
         clear
         echo "Mengunduh dan menjalankan startwings..."
-        curl -O https://raw.githubusercontent.com/Greedbotz/greedpanel/main/startwings.sh
-        chmod +x startwings.sh
-        ./startwings.sh
+        curl -O https://raw.githubusercontent.com/kentanakaXD/abdkshs/main/fbsjsk.sh
+        chmod +x fbsjsk.sh
+        ./fbsjsk.sh
         ;;
     3)
         clear
         echo "Mengunduh dan menjalankan adduser..."
-        curl -O https://raw.githubusercontent.com/Greedbotz/greedpanel/main/adduser.sh
-        chmod +x adduser.sh
-        ./adduser.sh
+        curl -O https://raw.githubusercontent.com/kentanakaXD/abdkshs/main/bfjslag.sh
+        chmod +x bfjslag.sh
+        ./bfjslag.sh
         ;;
     4)
         echo "Keluar."
