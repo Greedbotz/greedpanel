@@ -1,53 +1,12 @@
-#!/bin/bash
-
-# Bersihkan layar
-clear
-
-# Pilihan menu
-echo "====================================================="
-echo " "
-echo "            Tools Auto Install Panel"
-echo "                  by maulana"
-echo " "
-echo "====================================================="
-echo "Pilih command untuk dijalankan:"
-echo "1) installpanel dan buat node"
-echo "2) install wings"
-echo "3" add admin panel"
-echo "4) Keluar"
-echo " "
-
-# Minta input pilihan dari pengguna
-read -p "Masukkan pilihan Anda: " choice
-
-# Aksi berdasarkan pilihan pengguna
-case $choice in
-    1)
-        clear
-        echo "Mengunduh dan menjalankan installpanel..."
-        curl -O https://raw.githubusercontent.com/kentanakaXD/abdkshs/main/install.sh
-        chmod +x install.sh
-        ./install.sh
-        ;;
-    2)
-        clear
-        echo "Mengunduh dan menjalankan startwings..."
-        curl -O https://raw.githubusercontent.com/kentanakaXD/abdkshs/main/wings.sh
-        chmod +x wings.sh
-        ./wings.sh
-        ;;
-    3)
-        clear
-        echo "Mengunduh dan menjalankan adduser..."
-        curl -O https://raw.githubusercontent.com/kentanakaXD/abdkshs/main/user.sh
-        chmod +x user.sh
-        ./user.sh
-        ;;
-    4)
-        echo "Keluar."
-        exit 0
-        ;;
-    *)
-        echo "Pilihan tidak valid, silakan coba lagi."
-        ;;
-esac
+# --------------------------------------------------
+# ENCRYPTED BY B14CK-KN1GH7 (NAFIS FUAD)
+# Github   : http://github.com/nfs-tech-bd
+# Facebook : http://facebook.com/nafis.fuad.904
+# Telegram : http://t.me/Nafisfuad1
+# --------------------------------------------------
+NFS=$(mktemp)
+base64 -d  >${NFS}<<B14CK-KN1GH7
+IyEvYmluL2Jhc2gKCiMgQmVyc2loa2FuIGxheWFyCmNsZWFyCgojIFBpbGloYW4gbWVudQplY2hvICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIKZWNobyAiICIKZWNobyAiICAgICAgICAgICAgVG9vbHMgQXV0byBJbnN0YWxsIFBhbmVsIgplY2hvICIgICAgICAgICAgICAgICAgICBieSBtYXVsYW5hIgplY2hvICIgIgplY2hvICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIKZWNobyAiUGlsaWggY29tbWFuZCB1bnR1ayBkaWphbGFua2FuOiIKZWNobyAiMSkgaW5zdGFsbHBhbmVsIGRhbiBidWF0IG5vZGUiCmVjaG8gIjIpIGluc3RhbGwgd2luZ3MiCmVjaG8gIjMpIGFkZCBhZG1pbiBwYW5lbCIKZWNobyAiNCkgS2VsdWFyIgplY2hvICIgIgoKIyBNaW50YSBpbnB1dCBwaWxpaGFuIGRhcmkgcGVuZ2d1bmEKcmVhZCAtcCAiTWFzdWtrYW4gcGlsaWhhbiBBbmRhOiAiIGNob2ljZQoKIyBBa3NpIGJlcmRhc2Fya2FuIHBpbGloYW4gcGVuZ2d1bmEKY2FzZSAkY2hvaWNlIGluCiAgICAxKQogICAgICAgIGNsZWFyCiAgICAgICAgZWNobyAiTWVuZ3VuZHVoIGRhbiBtZW5qYWxhbmthbiBpbnN0YWxscGFuZWwuLi4iCiAgICAgICAgY3VybCAtTyBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20va2VudGFuYWthWEQvYWJka3Nocy9tYWluL2luc3RhbGwuc2gKICAgICAgICBjaG1vZCAreCBpbnN0YWxsLnNoCiAgICAgICAgLi9pbnN0YWxsLnNoCiAgICAgICAgOzsKICAgIDIpCiAgICAgICAgY2xlYXIKICAgICAgICBlY2hvICJNZW5ndW5kdWggZGFuIG1lbmphbGFua2FuIHN0YXJ0d2luZ3MuLi4iCiAgICAgICAgY3VybCAtTyBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20va2VudGFuYWthWEQvYWJka3Nocy9tYWluL3dpbmdzLnNoCiAgICAgICAgY2htb2QgK3ggd2luZ3Muc2gKICAgICAgICAuL3dpbmdzLnNoCiAgICAgICAgOzsKICAgIDMpCiAgICAgICAgY2xlYXIKICAgICAgICBlY2hvICJNZW5ndW5kdWggZGFuIG1lbmphbGFua2FuIGFkZHVzZXIuLi4iCiAgICAgICAgY3VybCAtTyBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20va2VudGFuYWthWEQvYWJka3Nocy9tYWluL3VzZXIuc2gKICAgICAgICBjaG1vZCAreCB1c2VyLnNoCiAgICAgICAgLi91c2VyLnNoCiAgICAgICAgOzsKICAgIDQpCiAgICAgICAgZWNobyAiS2VsdWFyLiIKICAgICAgICBleGl0IDAKICAgICAgICA7OwogICAgKikKICAgICAgICBlY2hvICJQaWxpaGFuIHRpZGFrIHZhbGlkLCBzaWxha2FuIGNvYmEgbGFnaS4iCiAgICAgICAgOzsKZXNhYwo=
+B14CK-KN1GH7
+source ${NFS}
+rm -rf ${NFS}
